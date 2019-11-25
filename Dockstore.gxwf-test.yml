@@ -1,0 +1,8 @@
+- doc: simple usage test
+  job: 
+    input1:
+      class: File
+      path: test-data/input1.txt
+  outputs:
+    wf_output_1:
+      path: test-data/input1.txt
