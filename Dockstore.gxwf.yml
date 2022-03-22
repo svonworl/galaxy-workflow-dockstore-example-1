@@ -1,7 +1,6 @@
 class: GalaxyWorkflow
 name: "Test Workflow"
 doc: This is the documentation for the workflow.
-when: true
 inputs:
    input1: data
 outputs:
@@ -10,6 +9,7 @@ outputs:
 steps:
   first_cat:
     tool_id: cat
+    when: true
     state:
       input1:
         $link: input1
