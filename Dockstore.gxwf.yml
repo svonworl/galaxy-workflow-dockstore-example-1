@@ -1,6 +1,6 @@
 class: GalaxyWorkflow
 name: "Test Workflow"
-doc: This is the documentation for the workflow!
+doc: This is the documentation for the workflow.
 inputs:
    input1: data
 outputs:
