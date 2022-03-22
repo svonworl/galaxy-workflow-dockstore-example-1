@@ -9,6 +9,7 @@ outputs:
 steps:
   first_cat:
     tool_id: cat
+    when: true
     state:
       input1:
         $link: input1
